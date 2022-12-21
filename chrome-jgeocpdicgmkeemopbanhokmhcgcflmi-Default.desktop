@@ -1,0 +1,26 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Twitter
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=jgeocpdicgmkeemopbanhokmhcgcflmi
+Icon=chrome-jgeocpdicgmkeemopbanhokmhcgcflmi-Default
+StartupWMClass=crx_jgeocpdicgmkeemopbanhokmhcgcflmi
+Actions=Direct-Messages;Explore;New-Tweet;Notifications
+
+[Desktop Action Direct-Messages]
+Name=Direct Messages
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=jgeocpdicgmkeemopbanhokmhcgcflmi "--app-launch-url-for-shortcuts-menu-item=https://twitter.com/messages?utm_source=jumplist&utm_medium=shortcut"
+
+[Desktop Action Explore]
+Name=Explore
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=jgeocpdicgmkeemopbanhokmhcgcflmi "--app-launch-url-for-shortcuts-menu-item=https://twitter.com/explore?utm_source=jumplist&utm_medium=shortcut"
+
+[Desktop Action New-Tweet]
+Name=New Tweet
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=jgeocpdicgmkeemopbanhokmhcgcflmi "--app-launch-url-for-shortcuts-menu-item=https://twitter.com/compose/tweet?utm_source=jumplist&utm_medium=shortcut"
+
+[Desktop Action Notifications]
+Name=Notifications
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=jgeocpdicgmkeemopbanhokmhcgcflmi "--app-launch-url-for-shortcuts-menu-item=https://twitter.com/notifications?utm_source=jumplist&utm_medium=shortcut"
